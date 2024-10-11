@@ -711,6 +711,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-\[15px\] {
+  gap: 15px;
+}
+
 .gap-\[27px\] {
   gap: 27px;
 }
@@ -872,6 +876,10 @@ video {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:gap-\[27px\] {
+    gap: 27px;
   }
 }
 
